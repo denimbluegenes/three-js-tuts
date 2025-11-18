@@ -29,8 +29,9 @@ renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
+//const geometry = new THREE.TorusGeometry(2, 0.6, 16, 100);
 
-const geometry = new THREE.TorusGeometry(2, 0.6, 16, 100);
+const geometry = new THREE.TorusGeometry(2, 2, 2, 2);
 //const material = new THREE.MeshBasicMaterial({ map: texture });;
 
 const texture = new THREE.TextureLoader().load('textures/ice.jpg')

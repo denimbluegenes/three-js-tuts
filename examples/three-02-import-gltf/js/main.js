@@ -76,7 +76,7 @@ function init() {
     // -> change material from Basic to standard for geometry to capture lights
     // const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
 
-    const texture = new THREE.TextureLoader().load('textures/animalPrint-crop-512.png');
+    const texture = new THREE.TextureLoader().load('textures/ice.jpg');
 
     const material = new THREE.MeshStandardMaterial({ map: texture });
     // texture.minFilter = THREE.LinearFilter; // makes image sharper but aliased
